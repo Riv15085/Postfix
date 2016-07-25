@@ -5,7 +5,6 @@ package Pila;
  * Clase Lectura permite la lectura archivos .text
  */
 
-
 import java.io.*;
 import java.util.*;
         
@@ -13,10 +12,12 @@ public class Lectura {
     
     // permite la lectura de un path y devuelve un string de las lineas del texto
     public static Vector leerArchivo (String path) throws FileNotFoundException,IOException{
-       Vector parrafo= new Vector(20,5);
+        //se define un tamaño de vector inicial
         String linea;
+        Vector parrafo= new Vector(20,5);
         FileReader fr= new FileReader(path);
         BufferedReader textReader = new BufferedReader(fr);
+        //se llena el vector parrafo por cada linea
         while((linea=textReader.readLine())!=null){
             parrafo.addElement(linea);
         }
