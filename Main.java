@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         
+        //se utiliza el metodo de la Calculadora
         Calculadora miCalculadora= new Calculadora();
         miCalculadora.Descomposicion();
     }
