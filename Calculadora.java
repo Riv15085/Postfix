@@ -8,7 +8,7 @@ import java.util.Vector;
  * Clase Calculadora que utiliza Stack y Lectura y realiza los calculos 
  */
 public class Calculadora {
-    
+    //variables globales 
     Stack pila1;
     String archivo,linea,actual;
     int num1,num2,resultado;
