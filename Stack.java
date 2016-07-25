@@ -46,5 +46,4 @@ public class Stack implements iPila {
     public Vector getVector(){
         return miPila;
     }
-    
 }
